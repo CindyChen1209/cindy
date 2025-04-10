@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cindy Chen - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 0;
+        }
+        h2 {
+            font-size: 28px;
+            margin-top: 0;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 120px;
+            border-radius: 50%;
+        }
+        .header .contact {
+            text-align: right;
+        }
+        .header .contact p {
+            margin: 0;
+            font-size: 16px;
+        }
+        .section-title {
+            margin-top: 40px;
+            font-size: 22px;
+            color: #333;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .experience, .education, .skills {
+            margin-top: 20px;
+        }
+        .experience ul, .education ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .experience li, .education li {
+            margin-bottom: 10px;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills li {
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="info">
+            <h1>Cindy Chen</h1>
+            <p>HR Intern | Event Assistant | Campus Goodwill Ambassador</p>
+        </div>
+        <div class="contact">
+            <p>Email: cindy12092002@gmail.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/cindy-chen-16960a35b">linkedin.com/in/cindy-chen-16960a35b</a></p>
+            <p>Location: Taipei, Taiwan</p>
+        </div>
+    </div>
+
+    <div class="section-title">About Me</div>
+    <p>Hard-working and lively business student with hands-on experience in recruitment and public events. Passionate about helping people find the right opportunities and building professional connections. Skilled in communication, candidate sourcing, and resume evaluation.</p>
+
+    <div class="section-title">Education</div>
+    <ul>
+        <li><strong>Ming Chuan University</strong> - B.B.A. in Business Management (Expected 2025)</li>
+    </ul>
+
+    <div class="section-title">Internship Experience</div>
+    <div class="experience">
+        <ul>
+            <li><strong>HR Intern – 1111 Job Bank</strong> (Dec 2024 – Present)
+                <ul>
+                    <li>Assisted in screening resumes for internal job openings and sourcing candidates based on company needs.</li>
+                    <li>Conducted initial candidate interviews and assessed their suitability according to the job requirements.</li>
+                    <li>Drafted recommendation letters and followed up on candidates' interview results, assisting with the hiring process.</li>
+                </ul>
+            </li>
+            <li><strong>Sales Consultant Intern – RecruitFirst</strong> (Oct 2024 – Dec 2024)
+                <ul>
+                    <li>Made 70–100 cold calls daily to attract talent for various job openings.</li>
+                    <li>Introduced job roles, assessed candidate strengths and fit.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section-title">Campus Activities</div>
+    <ul>
+        <li><strong>Goodwill Ambassador – Ming Chuan University</strong> (2021 – 2025)
+            <ul>
+                <li>Represented the university at campus events, assisting with student recruitment activities.</li>
+                <li>Organized and hosted 2 major recruitment events, managing logistics and facilitating communication.</li>
+                <li>Actively participated in various recruitment events, including campus tours and open houses.</li>
+                <li>Promoted the university’s values and culture, fostering positive relationships with prospective students.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="section-title">Skills</div>
+    <ul class="skills">
+        <li>Resume Screening</li>
+        <li>Interviewing</li>
+        <li>Cold Calling</li>
+        <li>Event Coordination</li>
+        <li>Microsoft Office</li>
+        <li>Fluent in Mandarin, Conversational English</li>
+    </ul>
+</div>
+
+</body>
+</html>
